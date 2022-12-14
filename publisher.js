@@ -91,7 +91,7 @@ const publishAsync = (
     const payload = '{'+
                     '"registry":"'+argv.registryId +
                     '","deviceID":"'+argv.deviceId +
-                    '","deviceName":"dragline2"' +
+                    '","deviceName":"'+argv.deviceName +
                     ',"pressure":'+Math.random() +
                     ',"speed":'+Math.floor(Math.random() * Math.floor(10)) +
                     ',"engineUpTime":'+Math.floor(Math.random() * Math.floor(10)) +
